@@ -1,0 +1,9 @@
+datetime1 = DateTime(10, 10, 1990)
+datetime2 = DateTime.millenium(10, 10)
+
+isinstance(datetime1, DateTime) # True
+isinstance(datetime2, DateTime) # True
+
+
+datetime1.display() # "10-10-1990 - 00:00:00PM"
+datetime2.display() # "10-10-2000 - 00:00:00PM"
